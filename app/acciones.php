@@ -74,7 +74,7 @@ function accionAltaRecuperacion($msg,$usuario){
     exit();
 }
 
-
+//Acción de Modificar con recuperación de datos 
 function accionModificarRecuperacion($msg,$usuario){
     $nombre  = $usuario['nombre'];
     $login   = $usuario['login'];
